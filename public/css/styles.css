@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f0f0f;
+}
+h1{color: #EEE;}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  /* background-color: #0F0F0F; */
+  background-color: #191919;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 10px;
+}
+nav .nav-bar ul {
+  display: flex;
+}
+.nav-bar {
+  margin-right: 30px;
+}
+.nav-bar ul li {
+  margin: 15px;
+  font-size: 18px;
+}
+.nav-bar ul li a {
+  color: rgb(175, 175, 175);
+  padding: 10px;
+  border-radius: 20px;
+}
+.nav-bar ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.445);
+  color: rgba(219, 219, 219, 0.829);
+}
+.logo {
+  margin-left: 30px;
+}
+#main {
+    display: flex;
+}
+.section {
+    margin: auto;
+    padding: 20px;
+    background-color: #0f0f0f;
+
+}
+.section button {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 7px;
+    background-color: #3d3d3d;
+    color: white;
+    margin-bottom: 5px;
+}
+.section select  {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 7px;
+    background-color: #3d3d3d;
+    color: white;
+}
+textarea {
+    resize: none;
+    border: 2px solid rgb(144, 145, 144);
+    border-radius: 5px;
+    background-color: #0f0f0f;
+    color: #EEE;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.EncDec {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* ----------------------- Radio-------------------------- */
+
+.radio-inputs {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  background-color: #3d3d3d;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+  padding: 0.25rem;
+  width: 300px;
+  font-size: 14px;
+  }
+  
+  .radio-inputs .radio {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  
+  .radio-inputs .radio input {
+    display: none;
+  }
+  
+  .radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: .5rem 0;
+    color: #EEE;
+    transition: all .15s ease-in-out;
+  }
+  
+  .radio-inputs .radio input:checked + .name {
+    background-color: #191919;
+    font-weight: 600;
+  }
+
+
+/* --------------------------------------------------- */

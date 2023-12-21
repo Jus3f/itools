@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>iTools</h1>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/URL">URL</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="main">
+        
+        
+        
+        <div class="section">
+            <form action="/" method="post">
+                <div class="EncDec">
+                    <div class="radio-inputs">
+                        <label class="radio">
+                          <input type="radio" value="Encode" name="radio" checked="">
+                          <span class="name">Encode</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" value="Decode" name="radio">
+                          <span class="name">Decode</span>
+                        </label>
+                      </div>
+                      <select name="" id="">
+                        <option value="1">UTF-8</option>
+                    </select>
+                    
+                </div>
+                <textarea name="textData" id="" cols="60" rows="10"><%= fix %></textarea> <br>
+                <button>Start</button> <br>
+                <textarea disabled name="" id="txt" cols="60" rows="10"><%= defaultText %></textarea> 
+            </form>
+            
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
